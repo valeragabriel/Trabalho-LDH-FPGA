@@ -33,7 +33,7 @@ O objetivo principal deste projeto é criar um sistema automatizado para um esta
 
 ## Requisitos do Sistema
 
-- Placa de Desenvolvimento FPGA: Basys3 Artix-7
+- Placa de Desenvolvimento FPGA: Cyclone III
 - Ferramentas de Desenvolvimento HDL: Quartus II e ModelSim
 - Sensores de Temperatura, Umidade 
 - Sistema de Irrigação (mangueira de irrigação e bomba)
