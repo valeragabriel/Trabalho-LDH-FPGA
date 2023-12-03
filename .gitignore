@@ -1,0 +1,25 @@
+# Ignorar arquivos temporários
+*.bak
+*.swp
+*~
+
+# Ignorar pastas específicas
+db/
+incremental_db/
+output_files/
+simulation/
+
+# Ignorar arquivos de compilação e simulação
+*.o
+*.vcd
+*.log
+*.rpt
+
+# Ignorar arquivos de resultados
+*.sdo
+*.summary
+
+# Ignorar arquivos de configuração de ferramentas
+*.tcl
+*.qsf
+*.qpf

@@ -1,0 +1,23 @@
+TABELA VERDADE DA TEMPERATURA
+temp_low	|   temp_high	|	temp_dim	|	temp_aum    |
+	0       |		0	    |		0	    |	    0		|
+	0	    |		1	    |		1	    |	    0		|
+	1	    |		0	    |		0	    |	    1		|
+	1	    |		1	    |		0	    |	    0		|
+
+temp_dim = !temp_low && temp_high
+temp_aum = temp_low && !temp_high
+
+TABELA VERDADE DA UMIDADE
+umid_low	|   umid_high	|	umid_dim	|	umid_aum    |
+	0       |		0	    |		0	    |	    0		|
+	0	    |		1	    |		1	    |	    0		|
+	1	    |		0	    |		0	    |	    1		|
+	1	    |		1	    |		0	    |	    0		|
+
+umid_dim = !umid_low && umid_high
+umid_aum = umid_low && !umid_high
+
+Logica para ambos
+dim = !low && high
+aum = low && !high
